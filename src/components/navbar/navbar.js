@@ -77,7 +77,7 @@ function NavBar({ currentUser }) {
                   <Button
                     onClick={() => auth.signOut()}
                     target="_blank"
-                    className="fork-btn-inner"
+                    className="fork-btn-inner mt-3"
                   > SignOut
                 <i className="fas fa-code-branch"></i>{" "}
                     <i className="far fa-star"></i>
